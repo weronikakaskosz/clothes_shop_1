@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Casual shirt",
+        "description": "Shop offers comfort and casual shrirt for women.",
+        "price": "$ 15,00",
+        "image": "https://xcdn.next.co.uk/COMMON/Items/Default/Default/Publications/G70/shotview/239/M58-682s.jpg"
+    },
+    {
+        "title": "Girls hoodie",
+        "description": "Shop offers comfort for both parent and child. That's our hoodie.",
+        "price": "$ 20,00",
+        "image": "https://asset1.cxnmarksandspencer.com/is/image/mands/Cotton-Rich-Hoodie--2-7-Yrs--1/SD_04_T77_4712B_D0_X_EC_0?$PDP_IMAGEGRID_1_LG$"
+    },
+    {
+        "title": "Casual shirt",
+        "description": "Relax and enjoy your time with casual shirt.",
+        "price": "$ 15,00",
+        "image": "https://photo.venus.com/im/21209647.jpg?preset=md_70"
+    },
+    {
+        "title": "Women hoodie",
+        "description": "Shop offers comfort and nice hoodie for women.",
+        "price": "$ 30,00",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc81p0_TUYL3B2gRIFDOiKq_iObRo6echViJ2QircgTC_ScX5nuXJt4Gp5S71fuYA0gP4&usqp=CAU"
+    },
+    {
+        "title": "Red dress",
+        "description": "Take this red dress for you. Very comfortable and elegant.",
+        "price": "$ 15,00",
+        "image": "https://img01.ztat.net/article/spp-media-p1/8818f8133cda47159f4f15b41490c234/ee31c27cd3364e49b5955d8bb8f26c83.jpg?imwidth=1800"
+    },
+    {
+        "title": "Black dress",
+        "description": "You will not regret this purchase. Take this comfortable dress for you.",
+        "price": "$ 20,00",
+        "image": "https://img01.ztat.net/article/spp-media-p1/f3096aa4659941dda70423e688ed7263/540cce5867864cb886db0f16e9c37403.jpg?imwidth=1800"
+    }
+]
