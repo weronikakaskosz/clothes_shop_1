@@ -24,8 +24,7 @@ mixin _$Failure {
 
 /// @nodoc
 abstract class $FailureCopyWith<$Res> {
-  factory $FailureCopyWith(Failure value, $Res Function(Failure) then) =
-      _$FailureCopyWithImpl<$Res>;
+  factory $FailureCopyWith(Failure value, $Res Function(Failure) then) = _$FailureCopyWithImpl<$Res>;
   $Res call({String? message});
 }
 
@@ -52,16 +51,13 @@ class _$FailureCopyWithImpl<$Res> implements $FailureCopyWith<$Res> {
 
 /// @nodoc
 abstract class _$$_FailureCopyWith<$Res> implements $FailureCopyWith<$Res> {
-  factory _$$_FailureCopyWith(
-          _$_Failure value, $Res Function(_$_Failure) then) =
-      __$$_FailureCopyWithImpl<$Res>;
+  factory _$$_FailureCopyWith(_$_Failure value, $Res Function(_$_Failure) then) = __$$_FailureCopyWithImpl<$Res>;
   @override
   $Res call({String? message});
 }
 
 /// @nodoc
-class __$$_FailureCopyWithImpl<$Res> extends _$FailureCopyWithImpl<$Res>
-    implements _$$_FailureCopyWith<$Res> {
+class __$$_FailureCopyWithImpl<$Res> extends _$FailureCopyWithImpl<$Res> implements _$$_FailureCopyWith<$Res> {
   __$$_FailureCopyWithImpl(_$_Failure _value, $Res Function(_$_Failure) _then)
       : super(_value, (v) => _then(v as _$_Failure));
 
@@ -103,13 +99,11 @@ class _$_Failure implements _Failure {
   }
 
   @override
-  int get hashCode =>
-      Object.hash(runtimeType, const DeepCollectionEquality().hash(message));
+  int get hashCode => Object.hash(runtimeType, const DeepCollectionEquality().hash(message));
 
   @JsonKey(ignore: true)
   @override
-  _$$_FailureCopyWith<_$_Failure> get copyWith =>
-      __$$_FailureCopyWithImpl<_$_Failure>(this, _$identity);
+  _$$_FailureCopyWith<_$_Failure> get copyWith => __$$_FailureCopyWithImpl<_$_Failure>(this, _$identity);
 }
 
 abstract class _Failure implements Failure {
@@ -119,6 +113,5 @@ abstract class _Failure implements Failure {
   String? get message;
   @override
   @JsonKey(ignore: true)
-  _$$_FailureCopyWith<_$_Failure> get copyWith =>
-      throw _privateConstructorUsedError;
+  _$$_FailureCopyWith<_$_Failure> get copyWith => throw _privateConstructorUsedError;
 }

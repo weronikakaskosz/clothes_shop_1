@@ -1,3 +1,5 @@
+import 'package:clothes_shop_1/presentation/clothes/page/clothes_vertically/clothes_vertically.dart';
+import 'package:clothes_shop_1/presentation/clothes/page/clothes_horizontally/clothes_horizontally.dart';
 import 'package:flutter/material.dart';
 
 class ClothesPage extends StatelessWidget {
@@ -47,6 +49,8 @@ class ClothesPage extends StatelessWidget {
                     ),
                   ],
                 ),
+                const ClothesHorizontally(),
+                const ClothesVertically(),
               ],
             ),
           ],
