@@ -2,11 +2,13 @@ import 'dart:convert';
 
 import 'package:clothes_shop_1/data/models/clothes_model.dart';
 import 'package:flutter/services.dart';
+import 'package:injectable/injectable.dart';
 
 abstract class ClothesHorizontallyLocalDataSource {
   Future<List<ClothesModel>> getClothesHorizontally();
 }
 
+@Injectable(as: ClothesHorizontallyLocalDataSource)
 class ClothesHorizontallyLocalDataSourceImpl implements ClothesHorizontallyLocalDataSource {
   @override
   Future<List<ClothesModel>> getClothesHorizontally() async {
